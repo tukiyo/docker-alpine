@@ -1,0 +1,6 @@
+proxy:
+  image: tukiyo3/alpine-tinyproxy
+  volumes:
+    - ./tinyproxy.conf:/etc/tinyproxy/tinyproxy.conf
+  ports:
+    - "8888:8888"
