@@ -1,5 +1,5 @@
 http:
-  image: tukiyo3/alpine-nginx-php
+  image: tukiyo3/alpine-nginx-php7
   restart: always
   ports:
    - "80:80"
